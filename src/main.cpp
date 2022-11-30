@@ -6,6 +6,7 @@
  #include "Transformation.h"
  #include "Interpolation.h"
 
+void affiche(Image I);
 
 int main(){
 	Image I(2,3);
@@ -13,9 +14,10 @@ int main(){
 	Interpolation * objInter = new Interpolation1(I);
 	double ng;
 	Point pf(2,3);
-	if (objInter->interpole(pf,ng))
+	pf.afficher();
+	if (objInter->interpole(pf,ng)) {
 		std::cout << ng << std::endl;
-	
+	}
 
 }
 

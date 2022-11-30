@@ -153,6 +153,30 @@ src/Image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Image.cpp.s
 .PHONY : src/Image.cpp.s
 
+src/Interpolation.o: src/Interpolation.cpp.o
+.PHONY : src/Interpolation.o
+
+# target to build an object file
+src/Interpolation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Interpolation.cpp.o
+.PHONY : src/Interpolation.cpp.o
+
+src/Interpolation.i: src/Interpolation.cpp.i
+.PHONY : src/Interpolation.i
+
+# target to preprocess a source file
+src/Interpolation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Interpolation.cpp.i
+.PHONY : src/Interpolation.cpp.i
+
+src/Interpolation.s: src/Interpolation.cpp.s
+.PHONY : src/Interpolation.s
+
+# target to generate assembly for a file
+src/Interpolation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Interpolation.cpp.s
+.PHONY : src/Interpolation.cpp.s
+
 src/Transformation.o: src/Transformation.cpp.o
 .PHONY : src/Transformation.o
 
@@ -237,6 +261,9 @@ help:
 	@echo "... src/Image.o"
 	@echo "... src/Image.i"
 	@echo "... src/Image.s"
+	@echo "... src/Interpolation.o"
+	@echo "... src/Interpolation.i"
+	@echo "... src/Interpolation.s"
 	@echo "... src/Transformation.o"
 	@echo "... src/Transformation.i"
 	@echo "... src/Transformation.s"

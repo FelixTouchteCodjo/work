@@ -13,6 +13,7 @@ class Interpolation { // class virtuelle
 };
 
 class Interpolation1 : public Interpolation {
+    public : 
     Interpolation1(const Image & I_);
     virtual bool interpole(const Point & pf, double & ng);
 };
