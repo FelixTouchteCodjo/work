@@ -1,15 +1,16 @@
 #include <iostream>
 #include "nr3.h"
 #include "Image.h"
-void affiche(Image I);
+#include <fstream>
 
 
 int main(){
-	std::cout << "Salut Felix !" << std::endl;
-	Image M(2,3);
-	Image N(3,2,4);
-	affiche(M);
-	affiche(N);
+	std::ifstream lecture("tmp.txt");
+	char c[2];
+	double data;
+	lecture >> c;
+	lecture >> data;
+	std::cout << c << " " << data << std::endl;
 }
 
 void affiche(Image I){
@@ -20,6 +21,6 @@ void affiche(Image I){
 		std::cout << std::endl;
 	} 
 }
-int foo(){}
+
 
 
