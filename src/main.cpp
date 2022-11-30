@@ -13,8 +13,10 @@ int main(){
 	affiche(I);
 	Interpolation * objInter = new Interpolation1(I);
 	double ng;
-	Point pf(2,3);
+	Point pf(0,0);
 	pf.afficher();
+	double x, y;
+	std::cout << x << " " << y<< std::endl;
 	if (objInter->interpole(pf,ng)) {
 		std::cout << ng << std::endl;
 	}

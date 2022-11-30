@@ -13,6 +13,7 @@ bool Interpolation1::interpole(const Point & pf, double & ng){ // bool = in/out 
     int H = I.nrows();
     int L = I.ncols();
     if ( (x < 0) || (x > H) || (y < 0) || (y > L-1) ) {
+        std::cout << "Je suis rentré. False" << std::endl;
         return false;
     }
     else {
@@ -27,12 +28,15 @@ bool Interpolation1::interpole(const Point & pf, double & ng){ // bool = in/out 
             j1--;
         i2 = i1 + 1;
         j2 = j2 + 1;
+        
         // Le point (x,y) est dans le carré défini par le spoints discrets (i1,j1),(i1,j2),(i2,j1),(i2,j2).
         dx = x - i1;
         dy = y - j1;
-        dfx = I[i2][j1] - I[i1][j1];
-        dfy = I[i1][j2] - I[i1][j1];
+        std::cout << "Je suis arrivé jusque là. True" << std::endl;
+        dfx = I[i2][j1] - I[i1][j1]; std::cout << "tmp" << dfy<< std::endl;
+        dfy = I[i1][j2] - I[i1][j1]; 
         dfxy = I[i1][j1] + I[i2][j2] - I[i2][j1] - I[i1][j2];
+        
         res = I[i1][j1] + dfx*dx + dfy*dy + dx*dy*dfxy;
         ng = res; // la valeur de I au point (x,y) est res
         return true; 
