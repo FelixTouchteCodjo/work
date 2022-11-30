@@ -22,4 +22,4 @@ void affiche(Image I){
 }
 int foo(){}
 
-int foo(2){}
+
