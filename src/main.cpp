@@ -4,6 +4,7 @@
 #include <fstream>
 #include "Point.h"
  #include "Transformation.h"
+ #include "Interpolation.h"
 
 
 int main(){

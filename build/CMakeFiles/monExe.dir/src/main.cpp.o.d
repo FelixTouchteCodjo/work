@@ -200,4 +200,6 @@ CMakeFiles/monExe.dir/src/main.cpp.o: \
  /home/touchtecodjo/Documents/COO/work/build/../include/Point.h \
  /usr/include/c++/11/math.h \
  /home/touchtecodjo/Documents/COO/work/build/../include/Transformation.h \
- /home/touchtecodjo/Documents/COO/work/build/../include/Point.h
+ /home/touchtecodjo/Documents/COO/work/build/../include/Point.h \
+ /home/touchtecodjo/Documents/COO/work/build/../include/Interpolation.h \
+ /home/touchtecodjo/Documents/COO/work/build/../include/Image.h
