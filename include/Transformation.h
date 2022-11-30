@@ -7,8 +7,8 @@ class Transformation{
     private :
         double theta, tx, ty;
     public :
-        Transformation(double vtheta, double vtx, double vty);
-        void transforme(const Point & pi, Point & pf);
+        Transformation(double vtheta, double vtx, double vty); // initialisation des attributs
+        void transforme(const Point & pi, Point & pf); // applique la transformation linéaire à pi et le stocke dans pf sans modifier pi
 };
 
 

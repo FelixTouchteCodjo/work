@@ -4,7 +4,7 @@
 #include "Point.h"
 #include "Image.h"
 
-class Interpolation { 
+class Interpolation { // class virtuelle
     protected :
         Image I;
     public :
@@ -12,6 +12,8 @@ class Interpolation {
         virtual bool interpole(const Point & pf, double & ng) = 0;
 };
 
-class Interpolation1 : public 
+class Interpolation1 : public Interpolation {
+    virtual bool interpole(const Point & pf, double & ng);
+};
 
 #endif
