@@ -196,4 +196,6 @@ CMakeFiles/monExe.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h /usr/include/string.h \
  /usr/include/strings.h \
  /home/touchtecodjo/Documents/COO/work/build/../include/Image.h \
- /home/touchtecodjo/Documents/COO/work/build/../include/nr3.h
+ /home/touchtecodjo/Documents/COO/work/build/../include/nr3.h \
+ /home/touchtecodjo/Documents/COO/work/build/../include/Point.h \
+ /usr/include/c++/11/math.h

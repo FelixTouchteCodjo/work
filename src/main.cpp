@@ -2,15 +2,16 @@
 #include "nr3.h"
 #include "Image.h"
 #include <fstream>
+#include "Point.h"
 
 
 int main(){
-	std::ifstream lecture("tmp.txt");
-	char c[2];
-	double data;
-	lecture >> c;
-	lecture >> data;
-	std::cout << c << " " << data << std::endl;
+	Point A(2,3);
+	A.afficher();
+	A.rotationner(3.14);
+	A.afficher();
+	std::cout << cos(3.14) << std::endl;
+
 }
 
 void affiche(Image I){

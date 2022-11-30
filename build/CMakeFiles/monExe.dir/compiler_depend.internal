@@ -250,6 +250,8 @@ CMakeFiles/monExe.dir/src/main.cpp.o
  /usr/include/strings.h
  /home/touchtecodjo/Documents/COO/work/include/Image.h
  /home/touchtecodjo/Documents/COO/work/include/nr3.h
+ /home/touchtecodjo/Documents/COO/work/include/Point.h
+ /usr/include/c++/11/math.h
 
 CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o
  /home/touchtecodjo/Documents/COO/work/src/poubelle/exemple.cpp

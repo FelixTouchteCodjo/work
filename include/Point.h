@@ -1,6 +1,7 @@
 #ifndef POINT_H
 #define POINT_H
 #include <math.h>
+#include <iostream>
 
 class Point{
     private :
@@ -19,6 +20,9 @@ class Point{
             double x = abs, y = ord;
             abs = cos(theta)*x - sin(theta)*y;
             ord = sin(theta)*x + cos(theta)*y;
+        }
+        void afficher(){
+            std::cout << "Point : " << abs << "," << ord << std::endl;
         }
 };
 

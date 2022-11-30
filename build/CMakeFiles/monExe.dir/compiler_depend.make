@@ -248,7 +248,9 @@ CMakeFiles/monExe.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/string.h \
   /usr/include/strings.h \
   ../include/Image.h \
-  ../include/nr3.h
+  ../include/nr3.h \
+  ../include/Point.h \
+  /usr/include/c++/11/math.h
 
 CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o: ../src/poubelle/exemple.cpp \
   /usr/include/stdc-predef.h
@@ -281,6 +283,8 @@ CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o: ../src/poubelle/exemple.cpp \
 /usr/include/c++/11/bits/locale_conv.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+
+../include/Point.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
 
@@ -399,6 +403,8 @@ CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o: ../src/poubelle/exemple.cpp \
 /usr/include/endian.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/c++/11/math.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
