@@ -129,6 +129,54 @@ monExe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/build
 .PHONY : monExe/fast
 
+src/Image.o: src/Image.cpp.o
+.PHONY : src/Image.o
+
+# target to build an object file
+src/Image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Image.cpp.o
+.PHONY : src/Image.cpp.o
+
+src/Image.i: src/Image.cpp.i
+.PHONY : src/Image.i
+
+# target to preprocess a source file
+src/Image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Image.cpp.i
+.PHONY : src/Image.cpp.i
+
+src/Image.s: src/Image.cpp.s
+.PHONY : src/Image.s
+
+# target to generate assembly for a file
+src/Image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Image.cpp.s
+.PHONY : src/Image.cpp.s
+
+src/Transformation.o: src/Transformation.cpp.o
+.PHONY : src/Transformation.o
+
+# target to build an object file
+src/Transformation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Transformation.cpp.o
+.PHONY : src/Transformation.cpp.o
+
+src/Transformation.i: src/Transformation.cpp.i
+.PHONY : src/Transformation.i
+
+# target to preprocess a source file
+src/Transformation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Transformation.cpp.i
+.PHONY : src/Transformation.cpp.i
+
+src/Transformation.s: src/Transformation.cpp.s
+.PHONY : src/Transformation.s
+
+# target to generate assembly for a file
+src/Transformation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Transformation.cpp.s
+.PHONY : src/Transformation.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -186,6 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... monExe"
+	@echo "... src/Image.o"
+	@echo "... src/Image.i"
+	@echo "... src/Image.s"
+	@echo "... src/Transformation.o"
+	@echo "... src/Transformation.i"
+	@echo "... src/Transformation.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

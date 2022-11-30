@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/touchtecodjo/Documents/COO/work/src/Image.cpp" "CMakeFiles/monExe.dir/src/Image.cpp.o" "gcc" "CMakeFiles/monExe.dir/src/Image.cpp.o.d"
+  "/home/touchtecodjo/Documents/COO/work/src/Transformation.cpp" "CMakeFiles/monExe.dir/src/Transformation.cpp.o" "gcc" "CMakeFiles/monExe.dir/src/Transformation.cpp.o.d"
   "/home/touchtecodjo/Documents/COO/work/src/main.cpp" "CMakeFiles/monExe.dir/src/main.cpp.o" "gcc" "CMakeFiles/monExe.dir/src/main.cpp.o.d"
   "/home/touchtecodjo/Documents/COO/work/src/poubelle/exemple.cpp" "CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o" "gcc" "CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o.d"
   )

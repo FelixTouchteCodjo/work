@@ -1,12 +1,14 @@
 #ifndef TRANSFORMATION_H
 #define TRANSFORMATION_H
 #include <math.h>
+#include "Point.h"
 
-class Transformation{
+class Transformation{ 
     private :
-        double abs, ord;
+        double theta, tx, ty;
     public :
-        
+        Transformation(double vtheta, double vtx, double vty);
+        void transforme(const Point & pi, Point & pf);
 };
 
 

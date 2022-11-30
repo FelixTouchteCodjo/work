@@ -3,15 +3,19 @@
 #include "Image.h"
 #include <fstream>
 #include "Point.h"
+ #include "Transformation.h"
 
 
 int main(){
+	
 	Point A(2,3);
+    Point B;
 	A.afficher();
-	A.rotationner(3.14);
+	B.afficher();
+    Transformation Tf(3.14,0,0);
+    Tf.transforme(A,B);
 	A.afficher();
-	std::cout << cos(3.14) << std::endl;
-
+	B.afficher();
 }
 
 void affiche(Image I){

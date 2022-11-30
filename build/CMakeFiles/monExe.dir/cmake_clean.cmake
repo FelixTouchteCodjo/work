@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "../bin/monExe"
   "../bin/monExe.pdb"
+  "CMakeFiles/monExe.dir/src/Image.cpp.o"
+  "CMakeFiles/monExe.dir/src/Image.cpp.o.d"
+  "CMakeFiles/monExe.dir/src/Transformation.cpp.o"
+  "CMakeFiles/monExe.dir/src/Transformation.cpp.o.d"
   "CMakeFiles/monExe.dir/src/main.cpp.o"
   "CMakeFiles/monExe.dir/src/main.cpp.o.d"
   "CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o"

@@ -7,7 +7,7 @@ class Point{
     private :
         double abs, ord;
     public :
-        Point(double x, double y){
+        Point(double x = 0, double y = 0){
             abs = x; ord = y;
         }
         void obtenirCoord(double &x, double &y){
