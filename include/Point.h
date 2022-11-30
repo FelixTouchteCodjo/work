@@ -10,7 +10,7 @@ class Point{
         Point(double x = 0, double y = 0){
             abs = x; ord = y;
         }
-        void obtenirCoord(double &x, double &y){
+        void obtenirCoord(double &x, double &y) const {
             x = abs; y = ord;
         }
         void translater(double x, double y){
@@ -21,8 +21,8 @@ class Point{
             abs = cos(theta)*x - sin(theta)*y;
             ord = sin(theta)*x + cos(theta)*y;
         }
-        void afficher(){
-            std::cout << "Point : " << abs << "," << ord << std::endl;
+        void afficher() const {
+            std::cout << "Point : " << abs << " , " << ord << std::endl;
         }
 };
 
