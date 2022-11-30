@@ -8,15 +8,15 @@
 
 
 int main(){
+	Image I(2,3);
+	affiche(I);
+	Interpolation * objInter = new Interpolation1(I);
+	double ng;
+	Point pf(2,3);
+	if (objInter->interpole(pf,ng))
+		std::cout << ng << std::endl;
 	
-	Point A(2,3);
-    Point B;
-	A.afficher();
-	B.afficher();
-    Transformation Tf(3.14,0,0);
-    Tf.transforme(A,B);
-	A.afficher();
-	B.afficher();
+
 }
 
 void affiche(Image I){

@@ -8,11 +8,12 @@ class Interpolation { // class virtuelle
     protected :
         Image I;
     public :
-        Interpolation(const Image & I);
+        Interpolation(const Image & I_);
         virtual bool interpole(const Point & pf, double & ng) = 0;
 };
 
 class Interpolation1 : public Interpolation {
+    Interpolation1(const Image & I_);
     virtual bool interpole(const Point & pf, double & ng);
 };
 

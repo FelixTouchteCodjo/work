@@ -4,6 +4,7 @@ Interpolation::Interpolation(const Image & I_ ){
     I = I_;
 }
 
+Interpolation1::Interpolation1(const Image & I_) : Interpolation(I_){;} // constructeur de Interpolation1
 
 // Algorithme fourni par le prof
 bool Interpolation1::interpole(const Point & pf, double & ng){ // bool = in/out selon que pf appartienne ou non au support
