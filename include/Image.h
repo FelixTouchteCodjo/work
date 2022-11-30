@@ -11,8 +11,8 @@ class Image : public NRmatrix<double> {
 	Image(int n, int m, const double *a) : NRmatrix(n,m,a){};	// Initialize to array
 	Image(const NRmatrix &rhs) : NRmatrix(rhs){};
 	
-	void imread(const char * filename);
-	void imwrite(const char * filename);
+	bool imread(const char * filename);
+	bool imwrite(const char * filename);
 
 };
 

@@ -20,7 +20,9 @@ int main(){
 	if (objInter->interpole(pf,ng)) {
 		std::cout << ng << std::endl;
 	}
-
+	// Image I(331,331);        // Pour tester imread
+	// I.imread("reference.pgm");
+	// affiche(I);
 }
 
 void affiche(Image I){
