@@ -1,0 +1,3 @@
+/home/touchtecodjo/Documents/COO/work/build/CMakeFiles/monExe.dir
+/home/touchtecodjo/Documents/COO/work/build/CMakeFiles/edit_cache.dir
+/home/touchtecodjo/Documents/COO/work/build/CMakeFiles/rebuild_cache.dir
