@@ -9,7 +9,7 @@ bool Image::imread(const char* filename)
     ifstream lecture(filename);
     const string fileType = "P2";
     string fileTypeRead;
-    double nrows, ncols;
+    double nrows, ncols, ng;
     bool out = true;
     if (!lecture.fail())
     {
@@ -31,6 +31,7 @@ bool Image::imread(const char* filename)
         {   cout << "La lecture a ete effectue" << endl;
             lecture >> nrows;
             lecture >> ncols;
+            lecture >> ng;
 
             for (int i(0); i<nrows; i++) // Variation suivant les lignes
             {
