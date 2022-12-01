@@ -1728,7 +1728,8 @@ CMakeFiles/monExe.dir/src/main.cpp.o: ../src/main.cpp \
   ../include/Similarite.h \
   ../include/Evaluation.h \
   ../include/Deformation.h \
-  ../include/Similarite.h
+  ../include/Similarite.h \
+  ../include/amoeba.h
 
 CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o: ../src/poubelle/exemple.cpp \
   /usr/include/stdc-predef.h
@@ -1831,6 +1832,8 @@ CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o: ../src/poubelle/exemple.cpp \
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+../include/amoeba.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
