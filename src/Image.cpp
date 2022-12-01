@@ -13,7 +13,7 @@ bool Image::imread(const char* filename)
     if (!lecture.fail())
     {
         lecture >> fileTypeRead;
-        cout << "fileTypeRead: " << fileTypeRead;
+        cout << "fileTypeRead: " << fileTypeRead <<endl;;
 
         for (int i(0); i<2; i++)
         {
