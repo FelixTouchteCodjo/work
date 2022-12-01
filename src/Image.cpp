@@ -32,6 +32,7 @@ bool Image::imread(const char* filename)
             lecture >> nrows;
             lecture >> ncols;
             lecture >> ng;
+            assign(nrows,ncols,0);
 
             for (int i(0); i<nrows; i++) // Variation suivant les lignes
             {
