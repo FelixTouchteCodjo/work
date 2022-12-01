@@ -24,6 +24,9 @@ class Point{
         void afficher() const {
             std::cout << "Point : " << abs << " , " << ord << std::endl;
         }
+        double distance(const Point & p) const{
+            sqrt((abs-p.abs)*(abs-p.abs) + (ord-p.ord)*(ord-p.ord));
+        }
 };
 
 
