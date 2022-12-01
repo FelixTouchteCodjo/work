@@ -9,8 +9,9 @@
 void affiche(Image I);
 
 int main(){
-	Image I(2,3);
-	affiche(I);
+	Image I(331,331);
+	//affiche(I);
+	I.imread("../src/reference.pgm"); 
 	Interpolation * objInter = new Interpolation1(I);
 	double ng;
 	Point pf(0,0);
