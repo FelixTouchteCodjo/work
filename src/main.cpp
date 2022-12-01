@@ -12,22 +12,21 @@ void affiche(Image I);
 int main()
 {
 
-	/* Felix: Test de la methode interpole
+	// Felix: Test de la methode interpole
+	Image I (2,3,120);
 	Interpolation * objInter = new Interpolation1(I);
 	double ng;
-	Point pf(0,0);
+	Point pf(1,2);
 	pf.afficher();
-	double x, y;
-	std::cout << x << " " << y<< std::endl;
 	if (objInter->interpole(pf,ng)) {
-		std::cout << ng << std::endl;
+		std::cout << " ng = " << ng << std::endl;
 	}
-	*/
+	
 
 	// // Randolf: Test de la methode imread
-	// Image I(331,331);        // Pour tester imread
-	// I.imread("reference.pgm");
-	// affiche(I);
+	// Image I(25,25,120);        // Pour tester imread
+	//I.imwrite("myfile.pgm");
+	//affiche(I);
 	
 
 	// /* Randolf: Test de la Classe Deformation*/

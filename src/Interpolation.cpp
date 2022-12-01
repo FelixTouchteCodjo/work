@@ -16,6 +16,12 @@ bool Interpolation1::interpole(const Point & pf, double & ng){ // bool = in/out 
         std::cout << "Je suis rentré. False" << std::endl;
         return false;
     }
+    else if ((x == 0) || (x == H) || (y == 0) || (y == L-1) ) { // petit modif par rapport à l'algo du prof pour éviter les segemntations false
+        int i = (int) x;
+        int j = (int) y;
+        ng = I[i][j];
+        return true;
+    }
     else {
         int i1, i2,j1,j2;
         double dx, dy, dfx, dfy, dfxy, res;
