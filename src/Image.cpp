@@ -1,13 +1,14 @@
 #include "Image.h"
 #include <fstream>
+#include "string.h"
 using namespace std;
 
 
 bool Image::imread(const char* filename)
 {
     ifstream lecture(filename);
-    char fileType[2] = {'P', '2'};
-    char fileTypeRead[2];
+    const string fileType = "P2";
+    string fileTypeRead;
     double nrows, ncols;
     bool out = true;
     if (!lecture.fail())
@@ -15,14 +16,11 @@ bool Image::imread(const char* filename)
         lecture >> fileTypeRead;
         cout << "fileTypeRead: " << fileTypeRead <<endl;;
 
-        for (int i(0); i<2; i++)
-        {
-            if (fileType[i] == fileTypeRead[i])
-                {out = out & true;}
-            else
-                {out = out & false;}
+        if (fileTypeRead == fileType)
+            {out = out & true;}
+        else
+            {out = out & false;}
 
-        }
         if (not out)
         {
             cout << "la lecture a echoue" << endl;
@@ -30,7 +28,7 @@ bool Image::imread(const char* filename)
         }
         
         else
-        {
+        {   cout << "La lecture a ete effectue" << endl;
             lecture >> nrows;
             lecture >> ncols;
 
@@ -46,5 +44,23 @@ bool Image::imread(const char* filename)
         
 
     }lecture.close();
+    
+
+}
+
+void Image::imwrite(const char* filename)
+{
+    ofstream write(filename);
+    string fileType = "P2";
+
+    write << fileType << "  " << nn << "  " << mm << "  "<< 255 << endl; // Premiere ligne du fichier texte
+
+    for (int i(0); i<nn; i++)
+    {
+        for (int j(0); j<mm; j++)
+        {
+            write << v[i][j] << " ";
+        }
+    }
     
 }
