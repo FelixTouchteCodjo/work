@@ -48,7 +48,7 @@ bool Image::imread(const char* filename)
 
 }
 
-void Image::imwrite(const char* filename)
+void Image::imwrite(const char* filename) const // je viens d'ajouter le const
 {
     ofstream write(filename);
     string fileType = "P2";

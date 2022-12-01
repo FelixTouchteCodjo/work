@@ -129,6 +129,30 @@ monExe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/build
 .PHONY : monExe/fast
 
+src/Deformation.o: src/Deformation.cpp.o
+.PHONY : src/Deformation.o
+
+# target to build an object file
+src/Deformation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Deformation.cpp.o
+.PHONY : src/Deformation.cpp.o
+
+src/Deformation.i: src/Deformation.cpp.i
+.PHONY : src/Deformation.i
+
+# target to preprocess a source file
+src/Deformation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Deformation.cpp.i
+.PHONY : src/Deformation.cpp.i
+
+src/Deformation.s: src/Deformation.cpp.s
+.PHONY : src/Deformation.s
+
+# target to generate assembly for a file
+src/Deformation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Deformation.cpp.s
+.PHONY : src/Deformation.cpp.s
+
 src/Image.o: src/Image.cpp.o
 .PHONY : src/Image.o
 
@@ -258,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... monExe"
+	@echo "... src/Deformation.o"
+	@echo "... src/Deformation.i"
+	@echo "... src/Deformation.s"
 	@echo "... src/Image.o"
 	@echo "... src/Image.i"
 	@echo "... src/Image.s"

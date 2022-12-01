@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../bin/monExe"
   "../bin/monExe.pdb"
+  "CMakeFiles/monExe.dir/src/Deformation.cpp.o"
+  "CMakeFiles/monExe.dir/src/Deformation.cpp.o.d"
   "CMakeFiles/monExe.dir/src/Image.cpp.o"
   "CMakeFiles/monExe.dir/src/Image.cpp.o.d"
   "CMakeFiles/monExe.dir/src/Interpolation.cpp.o"

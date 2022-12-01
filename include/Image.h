@@ -12,7 +12,7 @@ class Image : public NRmatrix<double> {
 	Image(const NRmatrix &rhs) : NRmatrix(rhs){};
 	
 	bool imread(const char * filename);
-	void imwrite(const char * filename);
+	void imwrite(const char * filename) const; // je viens d'ajouter le const
 
 };
 
