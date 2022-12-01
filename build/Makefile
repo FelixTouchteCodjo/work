@@ -153,6 +153,30 @@ src/Deformation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Deformation.cpp.s
 .PHONY : src/Deformation.cpp.s
 
+src/Evaluation.o: src/Evaluation.cpp.o
+.PHONY : src/Evaluation.o
+
+# target to build an object file
+src/Evaluation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Evaluation.cpp.o
+.PHONY : src/Evaluation.cpp.o
+
+src/Evaluation.i: src/Evaluation.cpp.i
+.PHONY : src/Evaluation.i
+
+# target to preprocess a source file
+src/Evaluation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Evaluation.cpp.i
+.PHONY : src/Evaluation.cpp.i
+
+src/Evaluation.s: src/Evaluation.cpp.s
+.PHONY : src/Evaluation.s
+
+# target to generate assembly for a file
+src/Evaluation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Evaluation.cpp.s
+.PHONY : src/Evaluation.cpp.s
+
 src/Image.o: src/Image.cpp.o
 .PHONY : src/Image.o
 
@@ -200,6 +224,30 @@ src/Interpolation.s: src/Interpolation.cpp.s
 src/Interpolation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Interpolation.cpp.s
 .PHONY : src/Interpolation.cpp.s
+
+src/Similarite.o: src/Similarite.cpp.o
+.PHONY : src/Similarite.o
+
+# target to build an object file
+src/Similarite.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Similarite.cpp.o
+.PHONY : src/Similarite.cpp.o
+
+src/Similarite.i: src/Similarite.cpp.i
+.PHONY : src/Similarite.i
+
+# target to preprocess a source file
+src/Similarite.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Similarite.cpp.i
+.PHONY : src/Similarite.cpp.i
+
+src/Similarite.s: src/Similarite.cpp.s
+.PHONY : src/Similarite.s
+
+# target to generate assembly for a file
+src/Similarite.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/monExe.dir/build.make CMakeFiles/monExe.dir/src/Similarite.cpp.s
+.PHONY : src/Similarite.cpp.s
 
 src/Transformation.o: src/Transformation.cpp.o
 .PHONY : src/Transformation.o
@@ -285,12 +333,18 @@ help:
 	@echo "... src/Deformation.o"
 	@echo "... src/Deformation.i"
 	@echo "... src/Deformation.s"
+	@echo "... src/Evaluation.o"
+	@echo "... src/Evaluation.i"
+	@echo "... src/Evaluation.s"
 	@echo "... src/Image.o"
 	@echo "... src/Image.i"
 	@echo "... src/Image.s"
 	@echo "... src/Interpolation.o"
 	@echo "... src/Interpolation.i"
 	@echo "... src/Interpolation.s"
+	@echo "... src/Similarite.o"
+	@echo "... src/Similarite.i"
+	@echo "... src/Similarite.s"
 	@echo "... src/Transformation.o"
 	@echo "... src/Transformation.i"
 	@echo "... src/Transformation.s"

@@ -6,6 +6,8 @@
 #include "Transformation.h"
 #include "Interpolation.h"
 #include "Deformation.h"
+#include "Similarite.h"
+#include "Evaluation.h"
 
 void affiche(Image I);
 
@@ -30,18 +32,28 @@ int main()
 	
 
 	// /* Randolf: Test de la Classe Deformation*/
-	Image I;
-	I.imread("reference.pgm");
-	int nn = I.nrows(), mm = I.ncols();
-	Image Idef(nn,mm), Imask(nn,mm);
-	// Interpolation *objInter = new Interpolation1(I);
-	Interpolation1 objInter(I);
-	Transformation objTf(0.785,0,0);
-	Deformation objDef(objInter, objTf);
-	objDef.deforme(Idef, Imask);
-	//affiche(Idef);
-	Idef.imwrite("test.pgm");
-	/* Fin_est Defomation*/
+	Image Iref, I;
+	Iref.imread("reference.pgm");
+	I.imread("floating.pgm");
+	// int nn = I.nrows(), mm = I.ncols();
+	// Image Idef(nn,mm), Imask(nn,mm);
+	// // Interpolation *objInter = new Interpolation1(I);
+	// Interpolation1 objInter(I);
+	// Transformation objTf(0.785,0,0);
+	// Deformation objDef(objInter, objTf);
+	// objDef.deforme(Idef, Imask);
+	// //affiche(Idef);
+	// Idef.imwrite("Idef.pgm");
+	// Imask.imwrite("Imask.pgm");
+	// /* Fin_est Defomation*/
+	// Image Iones(nn,mm,255);
+	// Similarite1 objSim(I,Idef,Iones,Imask);
+	// cout << "Similarité = " << objSim.ressemblance() << endl;
+	Evaluation E(Iref,I);
+	VecDoub v(3);
+	v[0] = 0.785; v[1] = 0; v[2] = 0;
+	cout << "Similarité = " << E(v) << endl;
+
 }
 
 void affiche(Image I)

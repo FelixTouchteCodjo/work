@@ -27,7 +27,7 @@ void Deformation::deforme(Image & Idef, Image & Imask)
             if(in_out)
             {
                 Idef[i][j] = ng;
-                Imask[i][j] = 1;
+                Imask[i][j] = 255; // alternative à 1; permet d'afficher le masque en blanc sur un fond noir
             }
             else
             {

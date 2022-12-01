@@ -83,10 +83,24 @@ CMakeFiles/monExe.dir/src/Deformation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monExe.dir/src/Deformation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/touchtecodjo/Documents/COO/work/src/Deformation.cpp -o CMakeFiles/monExe.dir/src/Deformation.cpp.s
 
+CMakeFiles/monExe.dir/src/Evaluation.cpp.o: CMakeFiles/monExe.dir/flags.make
+CMakeFiles/monExe.dir/src/Evaluation.cpp.o: ../src/Evaluation.cpp
+CMakeFiles/monExe.dir/src/Evaluation.cpp.o: CMakeFiles/monExe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/monExe.dir/src/Evaluation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monExe.dir/src/Evaluation.cpp.o -MF CMakeFiles/monExe.dir/src/Evaluation.cpp.o.d -o CMakeFiles/monExe.dir/src/Evaluation.cpp.o -c /home/touchtecodjo/Documents/COO/work/src/Evaluation.cpp
+
+CMakeFiles/monExe.dir/src/Evaluation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monExe.dir/src/Evaluation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/touchtecodjo/Documents/COO/work/src/Evaluation.cpp > CMakeFiles/monExe.dir/src/Evaluation.cpp.i
+
+CMakeFiles/monExe.dir/src/Evaluation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monExe.dir/src/Evaluation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/touchtecodjo/Documents/COO/work/src/Evaluation.cpp -o CMakeFiles/monExe.dir/src/Evaluation.cpp.s
+
 CMakeFiles/monExe.dir/src/Image.cpp.o: CMakeFiles/monExe.dir/flags.make
 CMakeFiles/monExe.dir/src/Image.cpp.o: ../src/Image.cpp
 CMakeFiles/monExe.dir/src/Image.cpp.o: CMakeFiles/monExe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/monExe.dir/src/Image.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/monExe.dir/src/Image.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monExe.dir/src/Image.cpp.o -MF CMakeFiles/monExe.dir/src/Image.cpp.o.d -o CMakeFiles/monExe.dir/src/Image.cpp.o -c /home/touchtecodjo/Documents/COO/work/src/Image.cpp
 
 CMakeFiles/monExe.dir/src/Image.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/monExe.dir/src/Image.cpp.s: cmake_force
 CMakeFiles/monExe.dir/src/Interpolation.cpp.o: CMakeFiles/monExe.dir/flags.make
 CMakeFiles/monExe.dir/src/Interpolation.cpp.o: ../src/Interpolation.cpp
 CMakeFiles/monExe.dir/src/Interpolation.cpp.o: CMakeFiles/monExe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/monExe.dir/src/Interpolation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/monExe.dir/src/Interpolation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monExe.dir/src/Interpolation.cpp.o -MF CMakeFiles/monExe.dir/src/Interpolation.cpp.o.d -o CMakeFiles/monExe.dir/src/Interpolation.cpp.o -c /home/touchtecodjo/Documents/COO/work/src/Interpolation.cpp
 
 CMakeFiles/monExe.dir/src/Interpolation.cpp.i: cmake_force
@@ -111,10 +125,24 @@ CMakeFiles/monExe.dir/src/Interpolation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monExe.dir/src/Interpolation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/touchtecodjo/Documents/COO/work/src/Interpolation.cpp -o CMakeFiles/monExe.dir/src/Interpolation.cpp.s
 
+CMakeFiles/monExe.dir/src/Similarite.cpp.o: CMakeFiles/monExe.dir/flags.make
+CMakeFiles/monExe.dir/src/Similarite.cpp.o: ../src/Similarite.cpp
+CMakeFiles/monExe.dir/src/Similarite.cpp.o: CMakeFiles/monExe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/monExe.dir/src/Similarite.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monExe.dir/src/Similarite.cpp.o -MF CMakeFiles/monExe.dir/src/Similarite.cpp.o.d -o CMakeFiles/monExe.dir/src/Similarite.cpp.o -c /home/touchtecodjo/Documents/COO/work/src/Similarite.cpp
+
+CMakeFiles/monExe.dir/src/Similarite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/monExe.dir/src/Similarite.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/touchtecodjo/Documents/COO/work/src/Similarite.cpp > CMakeFiles/monExe.dir/src/Similarite.cpp.i
+
+CMakeFiles/monExe.dir/src/Similarite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/monExe.dir/src/Similarite.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/touchtecodjo/Documents/COO/work/src/Similarite.cpp -o CMakeFiles/monExe.dir/src/Similarite.cpp.s
+
 CMakeFiles/monExe.dir/src/Transformation.cpp.o: CMakeFiles/monExe.dir/flags.make
 CMakeFiles/monExe.dir/src/Transformation.cpp.o: ../src/Transformation.cpp
 CMakeFiles/monExe.dir/src/Transformation.cpp.o: CMakeFiles/monExe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/monExe.dir/src/Transformation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/monExe.dir/src/Transformation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monExe.dir/src/Transformation.cpp.o -MF CMakeFiles/monExe.dir/src/Transformation.cpp.o.d -o CMakeFiles/monExe.dir/src/Transformation.cpp.o -c /home/touchtecodjo/Documents/COO/work/src/Transformation.cpp
 
 CMakeFiles/monExe.dir/src/Transformation.cpp.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/monExe.dir/src/Transformation.cpp.s: cmake_force
 CMakeFiles/monExe.dir/src/main.cpp.o: CMakeFiles/monExe.dir/flags.make
 CMakeFiles/monExe.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/monExe.dir/src/main.cpp.o: CMakeFiles/monExe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/monExe.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/monExe.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monExe.dir/src/main.cpp.o -MF CMakeFiles/monExe.dir/src/main.cpp.o.d -o CMakeFiles/monExe.dir/src/main.cpp.o -c /home/touchtecodjo/Documents/COO/work/src/main.cpp
 
 CMakeFiles/monExe.dir/src/main.cpp.i: cmake_force
@@ -142,7 +170,7 @@ CMakeFiles/monExe.dir/src/main.cpp.s: cmake_force
 CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o: CMakeFiles/monExe.dir/flags.make
 CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o: ../src/poubelle/exemple.cpp
 CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o: CMakeFiles/monExe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o -MF CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o.d -o CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o -c /home/touchtecodjo/Documents/COO/work/src/poubelle/exemple.cpp
 
 CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.i: cmake_force
@@ -156,8 +184,10 @@ CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.s: cmake_force
 # Object files for target monExe
 monExe_OBJECTS = \
 "CMakeFiles/monExe.dir/src/Deformation.cpp.o" \
+"CMakeFiles/monExe.dir/src/Evaluation.cpp.o" \
 "CMakeFiles/monExe.dir/src/Image.cpp.o" \
 "CMakeFiles/monExe.dir/src/Interpolation.cpp.o" \
+"CMakeFiles/monExe.dir/src/Similarite.cpp.o" \
 "CMakeFiles/monExe.dir/src/Transformation.cpp.o" \
 "CMakeFiles/monExe.dir/src/main.cpp.o" \
 "CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o"
@@ -166,14 +196,16 @@ monExe_OBJECTS = \
 monExe_EXTERNAL_OBJECTS =
 
 ../bin/monExe: CMakeFiles/monExe.dir/src/Deformation.cpp.o
+../bin/monExe: CMakeFiles/monExe.dir/src/Evaluation.cpp.o
 ../bin/monExe: CMakeFiles/monExe.dir/src/Image.cpp.o
 ../bin/monExe: CMakeFiles/monExe.dir/src/Interpolation.cpp.o
+../bin/monExe: CMakeFiles/monExe.dir/src/Similarite.cpp.o
 ../bin/monExe: CMakeFiles/monExe.dir/src/Transformation.cpp.o
 ../bin/monExe: CMakeFiles/monExe.dir/src/main.cpp.o
 ../bin/monExe: CMakeFiles/monExe.dir/src/poubelle/exemple.cpp.o
 ../bin/monExe: CMakeFiles/monExe.dir/build.make
 ../bin/monExe: CMakeFiles/monExe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/monExe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/touchtecodjo/Documents/COO/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../bin/monExe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monExe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
