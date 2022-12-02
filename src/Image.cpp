@@ -67,3 +67,14 @@ void Image::imwrite(const char* filename) const // je viens d'ajouter le const
     }
     
 }
+
+int Image::occurrence(int ng){
+    int S = 0;
+    for (int i=0;i<nn;i++){
+        for (int j=0;j<mm;j++){
+            if ((*this)[i][j] == ng){
+                S++;
+            }
+        }
+    }
+}

@@ -13,6 +13,7 @@ class Image : public NRmatrix<double> {
 	
 	bool imread(const char * filename);
 	void imwrite(const char * filename) const; // je viens d'ajouter le const
+	int occurrence(int ng);
 
 };
 
