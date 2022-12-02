@@ -1,7 +1,7 @@
 #include "Transformation.h"
 
 Transformation::Transformation(double vtheta, double vtx, double vty){
-    theta = vtheta; tx = vtx; ty = vty;
+    theta = vtheta; tx = vtx; ty = vty; // theta est en degré
 }
 
 void Transformation::transforme(const Point & pi, Point & pf){

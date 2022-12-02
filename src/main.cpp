@@ -31,8 +31,8 @@ int main(){
 	VecDoub yfinal1(3);
 
 	yfinal1 = opt.minimize(ystart,2.,m); //2 est la taille du simplex au départ
-	std::cout << ystart[0] << " " << ystart[1] << " " << ystart[2] << m(ystart) << std::endl;
-	std::cout << yfinal1[0] << " " << yfinal1[1] << " " << yfinal1[2] << m(yfinal1) << std::endl;
+	std::cout << "ystart " << ystart[0] << " " << ystart[1] << " " << ystart[2] << m(ystart) << std::endl;
+	std::cout << "yfinal1 " << yfinal1[0] << " " << yfinal1[1] << " " << yfinal1[2] << m(yfinal1) << std::endl;
 
 	/*Utilisation d'une matrice */
 

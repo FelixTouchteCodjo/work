@@ -14,14 +14,14 @@ void Deformation::deforme(Image & Idef, Image & Imask)
             double ng; // niveau de gris 
             bool in_out; // valeur des pixels de Imask
             Tf.transforme(pi,pf); // on trouve l'image du pixel (i, j) de I
-            cout << "Pi : " ; pi.afficher();
-            cout << "Pf : " ; pf.afficher();
+            //cout << "Pi : " ; pi.afficher();
+            //cout << "Pf : " ; pf.afficher();
             in_out = pInter->interpole(pf, ng); // on determine Idef(s) = I(s')
             // cout << "INTERPOLATION EFFECTUE AVEC SUCCES" << endl;
             // cout << "in_out: " << in_out <<endl;
             // cout << "ng: " << ng <<endl;
-            cout << "j: " << j <<endl; 
-            cout << "i: " << i <<endl; 
+            //cout << "j: " << j <<endl; 
+            //cout << "i: " << i <<endl; 
 
 
             if(in_out)
