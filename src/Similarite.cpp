@@ -23,3 +23,20 @@ double Similarite1::ressemblance(){  // les matrices ont mêmes dimensions
     S = S/(Smask);
     return S;
 }
+Similarite2::Similarite2(const Image & I1_, const Image & I2_, const Image & Imask1_, const Image & Imask2_)
+    : Similarite(I1_,I2_,Imask1_,Imask2_) {}
+
+double Similarite2::ressemblance(){  // les matrices ont mêmes dimensions
+    int nl = I1.nrows();
+    int nc = I2.ncols();
+    Image I1q(nl,nc);
+    Image I2q(nl,nc);
+    for (int i=0;i<nl;i++){
+        for (int j=0;j<nc;j++){
+            I1q[i][j] = floor((I1[i][j])/16);
+            I2q[i][j] = floor((I2[i][j])/16);
+        }
+    }
+    for 
+    return 0;
+}

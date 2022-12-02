@@ -42,11 +42,12 @@ bool Image::imread(const char* filename)
             }
             return out;
         }
+        
            
         
 
     }lecture.close();
-    
+    return false;
 
 }
 

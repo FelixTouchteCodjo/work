@@ -18,4 +18,10 @@ class Similarite1 : public Similarite {
     virtual double ressemblance();
 };
 
+class Similarite2 : public Similarite {
+    public : 
+    Similarite2(const Image & I1, const Image & I2, const Image & Imask1, const Image & Imask2);
+    virtual double ressemblance();
+};
+
 #endif
