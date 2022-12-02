@@ -48,3 +48,32 @@ bool Interpolation1::interpole(const Point & pf, double & ng){ // bool = in/out 
         return true; 
     }
 }
+
+/* Definition de la deuxieme facon d'interpoler: par la classe Interpolation2*/
+Interpolation2::Interpolation2(const Image & I_) : Interpolation(I_){;} // constructeur de Interpolation2
+
+bool Interpolation2::interpole(const Point & pf, double & ng){ // bool = in/out selon que pf appartienne ou non au support
+   
+    double x, y;
+    pf.obtenirCoord(x,y);
+    int H = I.nrows();
+    int L = I.ncols();
+    if ( (x < 0) || (x > H-1) || (y < 0) || (y > L-1) ) {
+        std::cout << "Je suis rentré. False" << std::endl;
+        return false;
+    }
+    else{
+        int i = floor(x), j=floor(y);
+        Point p1(i,j), p2(i+1,j), p3(i,j+1), p4(i+1,j+1);
+        double d1 = pf.distance(p1), d2 = pf.distance(p2), d3 = pf.distance(p3), d4 = pf.distance(p4);
+        double dmin = d1; 
+        x=i;
+        y=j;
+        if(d2<dmin){dmin=d2; x=i+1; y=j;}
+        if(d3<dmin){dmin=d3; x=i;   y=j+1;}
+        if(d4<dmin){dmin=d4; x=i+1; y=j+1;}
+        i = (int) x; j = (int) y;
+        ng = I[i][j];
+    }
+
+}   

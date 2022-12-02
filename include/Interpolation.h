@@ -18,4 +18,10 @@ class Interpolation1 : public Interpolation {
     virtual bool interpole(const Point & pf, double & ng);
 };
 
+class Interpolation2 : public Interpolation {
+    public : 
+    Interpolation2(const Image & I_);
+    virtual bool interpole(const Point & pf, double & ng);
+};
+
 #endif
