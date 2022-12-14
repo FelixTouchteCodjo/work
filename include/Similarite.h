@@ -22,6 +22,11 @@ class Similarite2 : public Similarite {
     public : 
     Similarite2(const Image & I1, const Image & I2, const Image & Imask1, const Image & Imask2);
     virtual double ressemblance();
+
 };
 
+
+double proba(int x0, int y0, const Image & I1, const Image & I2, const Image & Imask1,const Image & Imask2);
+double proba(int x0, const Image & I, const Image & Imask);
+Image maskCommun(const Image & Imask1,const Image & Imask2);
 #endif

@@ -62,19 +62,15 @@ void Image::imwrite(const char* filename) const // je viens d'ajouter le const
     {
         for (int j(0); j<mm; j++)
         {
-            write << v[i][j] << " ";
+            int a = v[i][j];
+            if (a<0)
+                a=0;
+            if (a>255)
+                a=255;
+                
+            write << a << " ";
         }
     }
     
 }
 
-int Image::occurrence(int ng){
-    int S = 0;
-    for (int i=0;i<nn;i++){
-        for (int j=0;j<mm;j++){
-            if ((*this)[i][j] == ng){
-                S++;
-            }
-        }
-    }
-}

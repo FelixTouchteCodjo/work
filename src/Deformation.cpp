@@ -31,6 +31,7 @@ void Deformation::deforme(Image & Idef, Image & Imask)
             }
             else
             {
+                Idef[i][j] = 0;               
                 Imask[i][j] = 0;
             }
 

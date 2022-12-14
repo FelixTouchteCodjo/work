@@ -14,6 +14,7 @@ bool Interpolation1::interpole(const Point & pf, double & ng){ // bool = in/out 
     int L = I.ncols();
     if ( (x < 0) || (x > H-1) || (y < 0) || (y > L-1) ) {
         //std::cout << "Je suis rentré. False" << std::endl;
+        ng=0;
         return false;
     }
     // else if ((x == 0) || (x == H-2) || (x == H-1)|| (y == 0) || (y == L-2) || (y == L-1)) { // petit modif par rapport à l'algo du prof pour éviter les segemntations false
@@ -60,6 +61,7 @@ bool Interpolation2::interpole(const Point & pf, double & ng){ // bool = in/out 
     int L = I.ncols();
     if ( (x < 0) || (x > H-1) || (y < 0) || (y > L-1) ) {
         //std::cout << "Je suis rentré. False" << std::endl;
+        ng=0;
         return false;
     }
     else{

@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/monExe.dir/src/Image.cpp.o.d"
   "CMakeFiles/monExe.dir/src/Interpolation.cpp.o"
   "CMakeFiles/monExe.dir/src/Interpolation.cpp.o.d"
+  "CMakeFiles/monExe.dir/src/Recalage.cpp.o"
+  "CMakeFiles/monExe.dir/src/Recalage.cpp.o.d"
   "CMakeFiles/monExe.dir/src/Similarite.cpp.o"
   "CMakeFiles/monExe.dir/src/Similarite.cpp.o.d"
   "CMakeFiles/monExe.dir/src/Transformation.cpp.o"
